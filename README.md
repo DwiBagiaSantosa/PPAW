@@ -1,3 +1,3 @@
 # PPAW
 
-## 1. Git installation
+## Demo : Git installation

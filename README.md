@@ -32,3 +32,15 @@
 ##### ![dbeaverinstall](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/dbeaverinstalan.png)
 ##### 4. Jika sudah selesai coba buka windows search kemudian tulis `dbeaver`. jika tampil seperti gambar di bawah berarti dbeaver berhasil diinstall
 ##### ![nodeberhasil](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/dbeaverinstalled.png)
+
+
+
+## Demo : MobaXterm installation & SSH connection
+
+##### 1. Download MobaXterm di [Download](https://mobaxterm.mobatek.net/download-home-edition.html)
+##### 2. Ekstrak File yang sudah di download lalu jalankan installernya
+##### ![mobaxtermexe](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/mobaxtermexe.png)
+##### 3. Setelah file tersebut dibuka maka akan tampil seperti gambar di bawah, lalu klik next sampai selesai
+##### ![mobaxterminstall](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/mobaxterminstall.png)
+##### 4. Jika sudah selesai coba buka windows search kemudian tulis `mobaxterm`. jika tampil seperti gambar di bawah berarti mobaxterm berhasil diinstall
+##### ![mobaxtermberhasil](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/mobaxtermberhasil.png)

@@ -44,3 +44,12 @@
 ##### ![mobaxterminstall](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/mobaxterminstall.png)
 ##### 4. Jika sudah selesai coba buka windows search kemudian tulis `mobaxterm`. jika tampil seperti gambar di bawah berarti mobaxterm berhasil diinstall
 ##### ![mobaxtermberhasil](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/mobaxtermberhasil.png)
+
+
+## Demo : HTML Responsive Layout with Media Query & Flexbox
+
+##### - Source code ada di [Disini](https://github.com/DwiBagiaSantosa/PPAW/tree/main/Demo-HTML%20Responsive%20Layout%20with%20Media%20Query%20%26%20Flexbox)
+##### - Tampilan Web
+##### ![tampilanweb](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/tampilanweb.png)
+##### - Tampilan Mobile
+##### ![tampilanmobile](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/tampilanmobile.png)

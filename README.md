@@ -59,3 +59,8 @@
 
 ##### Source Code [Disini](https://github.com/DwiBagiaSantosa/PPAW/blob/main/transformasi-data/transformasi-data.html)
 ##### ![tampilanweb](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/transformasi-data.png)
+
+
+## Demo : Linux server operation
+
+#### ![foto](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/Linux-server-operation.png)

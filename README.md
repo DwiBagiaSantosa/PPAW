@@ -63,4 +63,13 @@
 
 ## Demo : Linux server operation
 
-#### ![foto](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/Linux-server-operation.png)
+###### ![foto](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/Linux-server-operation.png)
+
+## Demo : MySQL installation
+
+##### 1. Buka CMD lalu ketik `docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql` seperti pada gambar dibawah
+##### ![foto](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/install%20mysql.png)
+##### 2. Cek dengan mengetik `docker ps` akan terlihat seperti dibawah
+##### ![foto](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/cekmysqlintalation.png)
+##### 3. Buka dengan menggunakan aplikasi Dbeaver
+##### ![foto](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/bukapakedbeaver.png)

@@ -1,0 +1,81 @@
+<%- include('../parts-mhs/header', {page: "matkul-mahasiswa"}) %>
+    <div class="container">
+        <%- include('../parts-mhs/sidebar') %>
+        <div class="content">
+            <div class="judul">
+                <h1>Nama Mata Kuliah</h1>
+            </div>
+            <div class="container-materi">
+                <div class="col-mat">
+                    <h3>Pertemuan 1</h3>
+                    <div class="border"></div>
+                    <% dtd.forEach(function(data) { %>
+                    <ul>
+                        <li><a href="<%=data.link %>"><%=data.materi_tugas %></a></li>
+                    </ul>
+                    <% }); %>
+                </div>
+                <div class="col-mat">
+                    <h3>Pertemuan 2</h3>
+                    <div class="border"></div>
+                    <ul>
+                        <li><a href="#">Materi</a></li>
+                        <li><a href="#">Tugas</a></li>
+                    </ul>
+                </div>
+                <div class="col-mat">
+                    <h3>Pertemuan 3</h3>
+                    <div class="border"></div>
+                    <ul>
+                        <li><a href="#">Materi</a></li>
+                        <li><a href="#">Tugas</a></li>
+                    </ul>
+                </div>
+                <div class="col-mat">
+                    <h3>Pertemuan 4</h3>
+                    <div class="border"></div>
+                    <ul>
+                        <li><a href="#">Materi</a></li>
+                        <li><a href="#">Tugas</a></li>
+                    </ul>
+                </div>
+                <div class="col-mat">
+                    <h3>Pertemuan 5</h3>
+                    <div class="border"></div>
+                    <ul>
+                        <li><a href="#">Materi</a></li>
+                        <li><a href="#">Tugas</a></li>
+                    </ul>
+                </div>
+                <div class="col-mat">
+                    <h3>Pertemuan 6</h3>
+                    <div class="border"></div>
+                    <ul>
+                        <li><a href="#">Materi</a></li>
+                        <li><a href="#">Tugas</a></li>
+                    </ul>
+                </div>
+                <div class="col-mat">
+                    <h3>Pertemuan 7</h3>
+                    <div class="border"></div>
+                    <ul>
+                        <li><a href="#">Materi</a></li>
+                        <li><a href="#">Tugas</a></li>
+                    </ul>
+                </div>
+                <div class="col-mat"></div>
+                <div class="col-mat"></div>
+                <div class="col-mat"></div>
+                <div class="col-mat"></div>
+                <div class="col-mat"></div>
+                <div class="col-mat"></div>
+                <div class="col-mat"></div>
+                <div class="col-mat"></div>
+                <div class="col-mat"></div>
+            </div>
+        </div>
+    </div>
+    <div class="test"></div>
+    
+</body>
+</html>

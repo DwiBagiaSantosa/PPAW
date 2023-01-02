@@ -1,0 +1,52 @@
+<%- include('../parts-mhs/header', {page: "profile-mahasiswa"}) %>
+    <div class="container">
+        <%- include('../parts-mhs/sidebar') %>
+        <div class="content">
+            <div class="judul">
+                <% dtd.forEach(function(data) { %>
+                <h1>Profile/<%=data.nama%></h1>
+                <% }); %>
+            </div>
+            <div class="profile-mahasiswa">
+                <div class="foto-profile">
+                    <img src="/img/profile.png" alt="profile">
+                </div>
+                <div class="data">
+                    <% dtd.forEach(function(data) { %>
+                    <form >
+                        <div class="nama">
+                            <label for="">Nama</label>
+                            <input type="text" name="nama" value="<%=data.nama %>" disabled>
+                        </div>
+                        <div class="nim">
+                            <label for="">NIM</label>
+                            <input type="text" nama="nim" value="<%=data.nim %>" disabled>
+                        </div>
+                        <div class="jenis-kelamin">
+                            <label for="">Jenis Kelamin</label>
+                            <input type="text" value="<%=data.jenis_kelamin %>" disabled>
+                        </div>
+                        <div class="alamat">
+                            <label for="">Alamat</label>
+                            <input type="text" value="<%=data.alamat %>" disabled>
+                        </div>
+                        <div class="kota">
+                            <label for="">Kota</label>
+                            <input type="text" value="<%=data.kota %>" disabled>
+                        </div>
+                        <div class="email">
+                            <label for="">Email</label>
+                            <input type="text" value="<%=data.email %>" disabled>
+                        </div>
+                        <div class="button">
+                            <a href="/mahasiswa/profile-mahasiswa/edit/<%data.mahasiswa_id%>">Edit</a>
+                        </div>
+                    </form>
+                    <% }); %>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+<%- include('../parts-dosen/header', {page: "profile-dosen"}) %>
+    <div class="container">
+        <%- include('../parts-dosen/sidebar') %>
+
+        <div class="content">
+            <div class="judul"> 
+                <h1>Tambah</h1>
+            </div>
+            <div class="profile-mahasiswa">
+                <div class="data">
+                    <% dtd.forEach(function(data) { %>
+                    <form action="/dosen/materi-dosen/update/<%=data.id%>" method="post">
+                        <div class="pertemuan">
+                            <input type="text" name="pertemuan" id="pertemuan" hidden>
+                        </div>
+                        <div class="nama">
+                            <label for="">Nama</label>
+                            <input type="text" name="materi_tugas" id="materi_tugas" value="<%=data.materi_tugas %>">
+                        </div>
+                        <div class="nim">
+                            <label for="" >Link</label>
+                            <input type="text" name="link" id="link" value="<%=data.link %>">
+                        </div>
+                        <a href="/dosen/matkul-dosen">back</a>
+                        <button>Submit</button>
+                    </form>
+                    <% }); %>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

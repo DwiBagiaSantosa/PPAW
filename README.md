@@ -73,3 +73,11 @@
 ##### ![foto](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/cekmysqlintalation.png)
 ##### 3. Buka dengan menggunakan aplikasi Dbeaver
 ##### ![foto](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/bukapakedbeaver.png)
+
+## Demo : Express JS - Web Service
+
+##### End Point yang dibuat
+##### ![foto](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/webservicedanendpoin.png)
+##### End Point ketika di panggil di website
+##### ![foto](https://github.com/DwiBagiaSantosa/PPAW/blob/main/img/endpoint-dipanggil.png)
+##### Link Source code ada [disini](https://github.com/DwiBagiaSantosa/PPAW/blob/main/expressjs-webservice/app.js)

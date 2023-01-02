@@ -1,0 +1,140 @@
+//meminta request data
+GET http://localhost:5000/jadwal_dosen
+
+###
+//membuat user admin
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+            "name": "Ibham Bathsyi",
+            "email": "ibem@gmail.com",
+            "password": "123456",
+            "confPassword":"123456",
+            "role": "admin"
+}
+
+###
+//membuat user dosen
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+           "name": "DwiBagia",
+            "email": "dwi@gmail.com",
+            "npm": "dosen12345",
+            "password": "123456",
+            "confPassword":"123456",
+            "alamat": "Ciwastra",
+            "dp": "dwi.png",
+            "role": "dosen"
+}
+
+###
+//membuat user mahasiswa
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+           "name": "Haikal",
+            "email": "haikal@gmail.com",
+            "nim": "1207050044",
+            "password": "123456",
+            "confPassword":"123456",
+            "alamat": "Banten",
+            "dp": "haikal.png",
+            "role": "mahasiswa"
+}
+
+###
+///login
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "ibem@gmail.com",
+    "password": "123456"
+}
+
+###
+//mengecek status login dan role loginnya sebagai apa
+GET http://localhost:5000/me
+
+###
+// cek logout
+DELETE  http://localhost:5000/logout
+
+###
+//liat materi
+GET  http://localhost:5000/materis
+
+###
+//tambah materi
+POST http://localhost:5000/materis
+Content-Type: application/json
+
+{
+    "nama_materi" : "Materi 4",
+    "link_materi" : "http://djawdjwaodjawdo.com",
+    "mata_kuliah": "paw",
+    "tenggat_waktu": "2022-12-26"
+}
+
+###
+POST  http:/localhost:5000/jadwal_dosen
+
+
+###
+PATCH  http://localhost:5000/users/45f399a9-5605-4e68-960c-84c12e946a40
+Content-Type: application/json
+
+{
+    "name" : "Ibham Bathsyi",
+    "password": "123456",
+    "confPassword" : "123456"
+}
+
+###
+PATCH  http://localhost:5000/materis/70b7e10e-e6f1-471b-817e-3937417ef7d1
+Content-Type: application/json
+
+{
+    "nama_materi" : "Materi Updated",
+    "link_materi" : "http://djawdjwaodjawdo.com",
+    "mata_kuliah": "ppaw",
+    "tenggat_waktu": "2022-12-25"
+}
+
+###
+DELETE http://localhost:5000/materis/12984554-3382-4f6a-b3f3-94666ee6f97c
+
+
+    # "name": "Haikal Azhar",
+    # "email": "haikal@gmail.com",
+    # "role":"dosen",
+    # "name" : "",
+
+        #    "name": "Ibham Bathsyi",
+        #     "email": "ibem@gmail.com",
+        #     "nim": "",
+        #     "npm": "npm",
+        #     "password": "123456",
+        #     "confPassword":"123456",
+        #     "alamat": "alamat",
+        #     "dp": "dp",
+        #     "role": "role"
+
+###
+//membuat jadwal dosen
+POST http://localhost:5000/jadwal_dosen
+Content-Type: application/json
+
+{
+           "matakuliah": "ppaw",
+            "kelas": "b",
+            "sks": "2",
+            "ruang": "R408",
+            "hari":"rabu",
+            "waktu": "14.20"
+}
+
